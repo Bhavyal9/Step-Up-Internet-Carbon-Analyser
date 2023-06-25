@@ -1,0 +1,20 @@
+{
+    "name": "Internet Carbon Footprint Analyser",
+    "version": "0.1.0",
+    "description":"Find the internet carbon footprint",
+    "permissions":["storage","tabs","webRequest"],
+    "host_permissions": ["https://api.co2signal.com/*","<all_urls>"],
+    "background": {
+        "service_worker": "background.js" 
+    },
+    "action":{
+        "default_icon":{
+            "16": "images/extraction.png",
+            "24":"images/extraction.png",
+            "32":"images/extraction.png"
+    },
+    "default_title":"Internet Carbon Footprint Analyser",
+    "default_popup":"popup/popup.html"
+},
+"manifest_version":3
+}

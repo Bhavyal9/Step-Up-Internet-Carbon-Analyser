@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../node_modules/chartist/dist/index.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="mainBox">
+      <h1>EcoWatch</h1>
+      <hr />
+      <div class="header-box">
+        <div class="total_CO2 pad">
+          <p class="total-sentence">
+            My total internet carbon footprint:
+            <span class="totalCO2 bold"></span>
+          </p>
+        </div>
+        <img src="../images/extension.jpg" width="150" height="150" />
+      </div>
+      <hr />
+      <div class="first_container">
+        <div class="select_and_run pad">
+          <label class="location-detail">What is your current location?</label>
+          <select name="locations" class="locations">
+            <option value="GB" selected>Great Britain</option>
+            <option value="BD">Bangladesh</option>
+            <option value="BR">Brazil</option>
+            <option value="TR">Turkey</option>
+            <option value="FR">France</option>
+            <option value="ES">Spain</option>
+            <option value="It">Italy</option>
+            <option value="CH">Switzerland</option>
+            <option value="JP">Japan</option>
+            <option value="RU">Russia</option>
+          </select>
+          <button class="run_analysis">
+            <img src="../images/analysis.png" width="12" height="12" /> Run
+            Analysis
+          </button>
+        </div>
+        <div class="analysis_result">
+          <div class="ct-chart ct-major-tenth firstChart"></div>
+          <div class="result">
+            <h3>Top 5 sites that uses most of the traffic</h3>
+            <div class="urlList"></div>
+          </div>
+        </div>
+        <div class="usage">
+          <p>
+            In just <span class="timeUsed">8</span> minutes of browsing, you
+            downloaded <span class="mbUsed">263 MB</span> of data, using
+            <span class="electricityUsed">0.071 kWh</span> of electricity and
+            generating <span class="CO2"> 37 gCO2e</span>.
+          </p>
+          <div class="flexdiv">
+            <div class="miniFlex bold">
+              <img src="../images/timeLeft.png" width="40" height="40" />
+              <p class="timeUsed2">x minutes</p>
+            </div>
+            <div class="miniFlex bold lightening">
+              <img src="../images/lightning.png" width="40" height="40" />
+              <p class="electricityUsed2">x kwh</p>
+            </div>
+          </div>
+          <div class="flexdiv">
+            <div class="miniFlex bold">
+              <img
+                src="../images/download.png"
+                width="40"
+                height="40"
+                class="download"
+              />
+              <p class="mbUsed2">x mb</p>
+            </div>
+            <div class="miniFlex bold">
+              <img src="../images/CO2.png" width="40" height="40" />
+              <p class="cReleased">x gCO2e</p>
+            </div>
+          </div>
+        </div>
+        <div class="carbonEmission">
+          <p>The CO2 emissions related to your digital use is equivalent to:</p>
+          <div class="flexdiv">
+            <div class="miniFlex bold">
+              <img src="../images/smartphone.png" width="40" height="40" />
+              <p class="chargedMob">x charged mobiles</p>
+            </div>
+            <div class="miniFlex bold">
+              <img src="../images/car.png" width="40" height="40" />
+              <p class="kmByCar">x kms by car</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="second_container">
+        <h2 class="second_heading">History of Digital Carbon Emission</h2>
+        <div class="historyChart ct-minor"></div>
+        <div class="flow">
+          <p>Impressive! Your carbon footprint has been reduced.</p>
+          <a href="">Click here to get your Code</a>
+        </div>
+        <hr />
+        <h2>Be Responsible</h2>
+        <p class="offsetLine">Lets see how you can offset it.</p>
+        <div class="options">
+          <div class="offset_options">
+            <img src="../images/plant.png" width="40" height="40" />
+            <h3 class="offset_topic">Plant Saplings</h3>
+          </div>
+          <p>
+            For <span class="finalCO2">X</span> Co2 emission, you need to plant
+            <span class="nTrees">X trees</span>
+          </p>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.makeitwild.co.uk/product-category/carbon-offsetting"
+                >Make It Wild</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://carbonneutralbritain.org/pages/become-carbon-neutral"
+                >Carbon Neutral Britain</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="options">
+          <div class="offset_options">
+            <img src="../images/rock.png" width="40" height="40" />
+            <h3 class="offset_topic">Spead Basalt Rock</h3>
+          </div>
+          <ul>
+            <li>
+              <a target="_blank" href="https://un-do.com/individual/">Undo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="options">
+          <div class="offset_options">
+            <img src="../images/fund.png" width="40" height="40" />
+            <h3 class="offset_topic">Fund Carbon Removal Projects</h3>
+          </div>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://watershed.com/en-GB/product/carbon-removal?utm_source=google&utm_medium=ppc&utm_campaign=17936399412&utm_content=632980731562&utm_term=138832211405&gclid=CjwKCAjw1MajBhAcEiwAagW9McQ-YKmXMC6Cd2ocWI1jejct589uHpcQdOa2PrZUvMo20re1lsP-kxoCG_kQAvD_BwE"
+                >Watershed Projects</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://carbonneutralbritain.org/pages/become-carbon-neutral"
+                >Carbon Neutral Britain</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="options">
+          <div class="offset_options">
+            <img src="../images/subscribe.png" width="40" height="40" />
+            <h3 class="offset_topic">Carbon Neutral Footprint package</h3>
+          </div>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.carbonneutralgroup.co.uk/offset/p/for-you?gclid=CjwKCAjw1MajBhAcEiwAagW9MRlju8ZDhRyPlL6aIHTZiq1WnKQRszXbAHdrcOQdnKVwkhtoEQViCxoCdykQAvD_BwE"
+                >Carbon Neutral Group</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.makeitwild.co.uk/product-category/carbon-offsetting"
+                >Make It Wild</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="ecofriendly">
+          <h3>Use ecofriendly websites</h3>
+          <p>
+            According to your top traffics, you can reduce your carbon footprint
+            by using the following eco-friendly websites instead
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="reset bold">Reset Your Digital Carbon Footprint</button>
+    <script src="../node_modules/chartist/dist/index.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

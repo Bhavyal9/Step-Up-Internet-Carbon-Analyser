@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#mainBox {
+  width: 500px;
+  padding: 20px;
+}
+
+.heading > h1 {
+  font-family: "Expletus Sans", cursive;
+  color: #010225;
+  font-size: 23px;
+}
+
+.header-box {
+  display: flex;
+}
+
+hr {
+  border: black, solid, 5px;
+}
+
+.total_CO2 {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  margin: 7px 20px;
+}
+
+.total-sentence {
+  margin: 40px 10px;
+}
+
+.totalCO2 {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+}
+
+.pad {
+  padding: 2px 8px;
+}
+
+.select_and_run {
+  margin-top: 5px;
+}
+
+.run_analysis,
+.total_val,
+.reset {
+  border: 1px solid black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #afcbf7;
+}
+
+.locations {
+  padding: 4px 6px;
+}
+
+.run_analysis {
+  margin-left: 20px;
+}
+
+.run_analysis:hover,
+.history:hover,
+.reset:hover,
+.back:hover {
+  cursor: pointer;
+  background-color: #94bbf7;
+}
+
+#myChart {
+  width: 200px;
+  height: 50px;
+}
+
+.analysis_result {
+  margin: 20px 0px 20px -100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstChart {
+  width: 32%;
+  margin: 0px 10px 0px 60px;
+}
+
+.result {
+  margin: 10px 10px 10px -70px;
+  max-width: 40%;
+}
+
+.urlList {
+  margin: 10px 0px;
+  padding: 0;
+}
+
+.flexdiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.miniFlex {
+  display: flex;
+  align-items: center;
+}
+
+.miniFlex > p {
+  font-size: 13px;
+  margin: 0px 10px;
+}
+
+.div2,
+.lightening {
+  margin-right: 12px;
+}
+
+/* Second Container */
+
+.historyChart {
+  margin: 10px 0px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.offsetLine,
+.options {
+  margin: 20px;
+}
+.offset_options {
+  display: flex;
+}
+
+.offset_topic {
+  margin: 8px 0px 0px 10px;
+}
+
+li {
+  margin-left: 70px;
+  font-size: 13px;
+}
+
+.options p {
+  margin-bottom: 5px;
+  margin-left: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.code {
+  margin: 10px 0px 20px;
+}
+
+.flow {
+  margin: 10px 30px;
+  line-height: 20px;
+}
+
+.reset {
+  margin: 0px 150px 20px;
+  padding: 10px;
+}
+
+.ecofriendly {
+  line-height: 20px;
+  margin: 0px 0px 0px 20px;
+}
+
+.usage,
+.carbonEmission {
+  margin: 0px 20px;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+.location-detail {
+  font-size: 13px;
+  margin-right: 5px;
+}

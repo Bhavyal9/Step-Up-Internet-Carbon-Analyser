@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #010225;
+}
+
+a {
+  color: #d5ecf2;
+  line-height: 1em;
+  display: block;
+  margin: 20px 30px;
+}
+
+h2 {
+  color: #14cf74;
+  margin: 30px;
+}
+p {
+  color: #d5ecf2;
+  margin: 30px;
+}
+
+.credit-section {
+  background-color: ;
+}

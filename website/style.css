@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #010225;
+}
+
+hr {
+  border: 2px solid #000837;
+}
+
+.hide {
+  display: none;
+}
+
+a:link {
+  color: #14cf74;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #14cf74;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #14cf74;
+  background-color: transparent;
+}
+
+a:active {
+  color: #14cf74;
+  background-color: transparent;
+}
+
+.first_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 20px;
+  color: #a8f4ce;
+}
+
+.main-tagline {
+  color: #d5ecf2;
+  font-size: 50px;
+  text-align: center;
+  margin: 80px 0px 20px 10px;
+}
+
+.margin-30 {
+  margin-left: 30px;
+}
+
+.content {
+  text-align: justify;
+  line-height: 2;
+}
+
+.landing-content {
+  margin: 10px 10px 20px 60px;
+}
+
+.green {
+  color: #14cf74;
+}
+
+.heading-color {
+  color: #d5ecf2;
+}
+
+.download {
+  background-color: #23242d;
+  color: #66f4ad;
+  padding: 10px 20px;
+  border: 1px solid #66f4ad;
+  border-radius: 10px;
+  margin: 30px 60px;
+  text-decoration:none;
+}
+
+.download:hover {
+  background-color: #23242d;
+  cursor: pointer;
+  border: 2px solid;
+}
+
+.inspiration {
+  margin: 40px 10px 10px 60px;
+}
+
+.inspiration-content {
+  margin: 10px 10px 10px 60px;
+}
+
+.credit {
+  color: #aab0b5;
+}
+
+/* Second Container */
+.mission-heading {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.mission-1,
+.mission-2 {
+  display: flex;
+  margin: 20px 50px;
+}
+
+.mission-subheading {
+  font-size: 22px;
+  padding: 40px 0 0 50px;
+}
+
+.mission-content {
+  padding: 20px 100px 0px 50px;
+}
+
+.pic-1 {
+  margin-left: 50px;
+}
+
+.pic-2 {
+  margin-right: 100px;
+}
+
+.target {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 30px;
+}
+
+.target1:hover,
+.target2:hover {
+  cursor: pointer;
+  color: #2de589;
+}
+
+.url {
+  background-color: #fff;
+}
+
+.submitButton {
+  background-color: #14cf74;
+  padding: 13px 50px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.userButton {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 2px solid #14cf74;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.submitButton:hover,
+.userButton:hover {
+  cursor: pointer;
+  background-color: #2de589;
+  border: 3px solid #0a9650;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.business-content,
+.user-content {
+  margin: 0px 100px;
+}
+
+.business-cta,
+.user-cta {
+  font-size: 20px;
+  color: #a8f4ce;
+  margin-top: 20px;
+}
+
+.url {
+  width: 60%;
+  height: 40px;
+  margin: 10px 10px 20px 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.userButton {
+  color: #000;
+  margin: 20px 100px;
+}
+
+/* How it works? */
+
+.fourth-container {
+  display: flex;
+}
+
+.how-it-works {
+  margin: 30px 20px 30px 100px;
+}
+
+li {
+  margin: 30px 0;
+}
+
+.credit-section {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* Report */
+
+.report-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.report {
+  background-color: #66C7F4;
+  width: 70%;
+  margin: 0px auto;
+  padding: 28px;
+  height: 95%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  top: 20px;
+}
+
+.report::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* Track */
+.report::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.report::-webkit-scrollbar-thumb {
+  background: #0f114f; 
+}
+
+.report-heading {
+  text-align: center;
+  margin: -20px 0px 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.focus {
+  color: #bf1128;
+}
+
+.facts {
+  margin: 20px 0px;
+  border: 1.5px solid black;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.lists {
+  font-size:14px;
+  margin: 10px 0px;
+}
+
+.displayFlex {
+  display: flex;
+  margin-top: 10px;
+  align-items:center;
+}
+
+.reportLine, .equivalent{
+  margin:0px 0px 20px;
+}
+
+.webpage_CO2 {
+  margin: 10px 30%;
+}
+
+.totalRelease {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.equivalentAmnt {
+  margin-left: 20px;
+  font-size:14px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.actions > div {
+  font-size:14px;
+  padding: 15px;
+  background-color: #0f114f;
+  text-align: center;
+  margin: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.actionWord {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.things {
+  text-align: center;
+  margin-top:10px;
+}
+
+.close {
+  position: relative;
+  left: 800px;
+  top: -10px;
+  font-size: 20px;
+}
+
+.close:hover {
+  cursor: pointer;
+}
