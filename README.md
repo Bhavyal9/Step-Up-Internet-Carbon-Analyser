@@ -11,7 +11,7 @@ https://github.com/Bhavyal9/Step-Up-Internet-Carbon-Analyser/assets/77969476/1ab
 
 - **Country-Specific Calculation:** Utilising the carbon intensity of each country, the extension provides more accurate results by considering the varying environmental impact of internet usage based on location. Carbon intensity is the measure of CO2 emissions per unit of energy, varies across countries due to diverse energy sources and policies. France, for instance, has a low carbon intensity due to its substantial reliance on nuclear power, constituting about 70% of its electricity generation.
 
-- **Offset Your Emissions:** The extension includes links to reputable carbon offsetting organizations, allowing users to take action and compensate for their carbon footprint by supporting eco-friendly initiatives and projects.
+- **Offset Your Emissions:** The extension includes links to reputable carbon offsetting organisations, allowing users to take action and compensate for their carbon footprint by supporting eco-friendly initiatives and projects.
 
 ## Installing Manually from GitHub
 
